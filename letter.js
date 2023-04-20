@@ -1,5 +1,4 @@
 let Rot = [
-
     {lett: "_" , conv: ' '},
     {lett: "A" , conv: 'N'},
     {lett: "B" , conv: 'O'},
@@ -50,11 +49,11 @@ function convert(inputWords){
         
     }
     document.getElementById("Output").value = newText;
+    alert(newText)
 };
 
 
 document.getElementById("con").addEventListener("click",function() {
     var inputWords = document.getElementById('Input').value;
-    alert(inputWords);
     convert(inputWords);
 });
