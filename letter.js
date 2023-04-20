@@ -55,5 +55,6 @@ function convert(inputWords){
 
 document.getElementById("con").addEventListener("click",function() {
     var inputWords = document.getElementById('Input').value;
+    alert(inputWords);
     convert(inputWords);
 });
