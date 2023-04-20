@@ -35,7 +35,7 @@ let Rot = [
 // ASSUMING .FREE CODE,
 
 function convert(inputWords){
-    let inputletter = inputWords.replace(/ /g, "_").toUpperCase;
+    let inputletter = inputWords.replace(/ /g, "_").toUpperCase();
     let newText ="";
     // inputletter is 'FREE_CODE'
     for(let i = 0; i < inputWords.length; i++){
